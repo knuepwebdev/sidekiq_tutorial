@@ -1,0 +1,8 @@
+<h1>Add a new product</h1>
+<%= form_for @product do |form| %>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+    <%= form.submit 'Create Product' %>
+  </div>
+<% end %>
