@@ -15,3 +15,4 @@
 /log/*.log
 /tmp
 dump.rdb
+local_env.yml
