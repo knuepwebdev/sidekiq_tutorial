@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'sidekiq', '~> 3.3.4'
+gem 'sinatra', :require => nil  #for Sidekiq Monitoring via its Web UI
 
 group :doc do
   gem 'sdoc', require: false
