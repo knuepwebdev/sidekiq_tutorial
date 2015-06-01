@@ -1,4 +1,4 @@
-class HardWorker
+class EmailWorker
   include Sidekiq::Worker
 
   def perform(name)
