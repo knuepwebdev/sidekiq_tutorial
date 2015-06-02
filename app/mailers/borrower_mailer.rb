@@ -1,4 +1,4 @@
-class LenderMailer < ApplicationMailer
+class BorrowerMailer < ApplicationMailer
   default from: 'knuepwebdev@gmail.com'
 
   def order_notification(email_address)
